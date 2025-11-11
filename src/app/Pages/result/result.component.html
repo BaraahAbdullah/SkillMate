@@ -1,0 +1,43 @@
+<div class="result-container" *ngIf="bestMatch; else noMatch">
+  <h2>نتيجتك 🎯</h2>
+
+  <div class="result-card">
+    <h3>التخصص الأنسب لك هو:</h3>
+    <h2 class="highlight">{{ bestMatch?.name }}</h2>
+
+    <div class="match">
+      <p>نسبة التوافق: <strong>{{ matchPercentage }}%</strong></p>
+      <div class="progress-bar">
+        <div class="fill" [style.width.%]="matchPercentage"></div>
+      </div>
+    </div>
+
+    <div class="skills-info">
+      <h4>🧠 المهارات التي تتقنها:</h4>
+      <ul>
+        <li *ngFor="let skill of userSkills">{{ skill }}</li>
+      </ul>
+
+      <h4>🚀 المهارات التي تحتاج تطويرها:</h4>
+      <ul>
+        <li *ngFor="let skill of missingSkills">{{ skill }}</li>
+      </ul>
+    </div>
+
+    <div class="courses">
+      <h4>🎓 الدورات المقترحة:</h4>
+      <ul>
+        <li *ngFor="let course of bestMatch?.recommendedCourses">{{ course }}</li>
+      </ul>
+    </div>
+
+    <button (click)="restart()">🔄 إعادة التجربة</button>
+  </div>
+</div>
+
+<ng-template #noMatch>
+  <div class="no-match">
+    <h3>لم يتم العثور على نتيجة</h3>
+    <button (click)="restart()">العودة للاختيار</button>
+  </div>
+</ng-template>

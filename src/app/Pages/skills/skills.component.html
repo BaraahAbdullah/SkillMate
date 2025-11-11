@@ -1,0 +1,36 @@
+<div class="skills-container">
+  <h2>اختر المهارات التي تتقنها</h2>
+
+  <div class="skills-section">
+    <h3>🧰 المهارات التقنية</h3>
+    <div class="skills-list">
+      <div
+        *ngFor="let skill of technicalSkills"
+        class="skill-card"
+        [class.selected]="isSelected(skill)"
+        (click)="toggleSkill(skill)"
+      >
+        {{ skill }}
+      </div>
+    </div>
+  </div>
+
+  <div class="skills-section">
+    <h3>💬 المهارات الناعمة</h3>
+    <div class="skills-list">
+      <div
+        *ngFor="let skill of softSkills"
+        class="skill-card"
+        [class.selected]="isSelected(skill)"
+        (click)="toggleSkill(skill)"
+      >
+        {{ skill }}
+      </div>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <button (click)="continue()">التالي ➡️</button>
+    <button class="reset" (click)="reset()">🔄 إعادة الاختيار</button>
+  </div>
+</div>

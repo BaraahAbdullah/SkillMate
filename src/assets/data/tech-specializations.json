@@ -1,0 +1,194 @@
+{
+  "categories": [
+    {
+      "category": "تطوير البرمجيات",
+      "specializations": [
+        {
+          "name": "تطوير الويب",
+          "description": "تصميم وبناء المواقع والتطبيقات باستخدام تقنيات الويب الحديثة.",
+          "technicalSkills": ["HTML", "CSS", "JavaScript", "TypeScript", "Angular", "React"],
+          "softSkills": ["Problem Solving", "Creativity", "Communication"],
+          "recommendedCourses": [
+            "Frontend Developer Bootcamp",
+            "Modern JavaScript Mastery",
+            "Responsive Web Design by freeCodeCamp"
+          ]
+        },
+        {
+          "name": "تطوير تطبيقات الموبايل",
+          "description": "بناء تطبيقات لأنظمة iOS و Android باستخدام أطر عمل حديثة.",
+          "technicalSkills": ["Flutter", "React Native", "Kotlin", "Swift", "Firebase"],
+          "softSkills": ["Adaptability", "Communication", "Teamwork"],
+          "recommendedCourses": [
+            "Flutter Developer Course (Udemy)",
+            "React Native - The Practical Guide",
+            "Kotlin for Android Developers"
+          ]
+        },
+        {
+          "name": "تطوير الألعاب",
+          "description": "إنشاء ألعاب رقمية تفاعلية باستخدام محركات ألعاب مثل Unity و Unreal.",
+          "technicalSkills": ["Unity", "C#", "3D Modeling", "Game Physics"],
+          "softSkills": ["Creativity", "Collaboration", "Attention to Detail"],
+          "recommendedCourses": [
+            "Unity Game Developer Bootcamp",
+            "Unreal Engine Fundamentals",
+            "C# for Game Development"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "البيانات والذكاء الاصطناعي",
+      "specializations": [
+        {
+          "name": "تحليل البيانات",
+          "description": "جمع وتنظيف وتحليل البيانات لاستخلاص رؤى تساعد في اتخاذ القرار.",
+          "technicalSkills": ["Python", "SQL", "Excel", "Power BI", "Tableau"],
+          "softSkills": ["Critical Thinking", "Problem Solving", "Communication"],
+          "recommendedCourses": [
+            "Google Data Analytics",
+            "Python for Data Science",
+            "Excel to MySQL"
+          ]
+        },
+        {
+          "name": "علم البيانات",
+          "description": "تطبيق خوارزميات التعلم الآلي لتحليل البيانات والتنبؤ بالنتائج.",
+          "technicalSkills": ["Python", "Machine Learning", "TensorFlow", "Pandas", "Scikit-learn"],
+          "softSkills": ["Analytical Thinking", "Creativity", "Collaboration"],
+          "recommendedCourses": [
+            "IBM Data Science Professional Certificate",
+            "Machine Learning by Stanford",
+            "Deep Learning Specialization"
+          ]
+        },
+        {
+          "name": "هندسة البيانات",
+          "description": "تصميم وتنفيذ بنى تحتية لمعالجة وتخزين البيانات الكبيرة.",
+          "technicalSkills": ["SQL", "ETL", "Apache Spark", "Data Pipelines", "AWS"],
+          "softSkills": ["Attention to Detail", "Problem Solving", "Time Management"],
+          "recommendedCourses": [
+            "Data Engineering with Google Cloud",
+            "Building ETL Pipelines",
+            "Big Data Essentials"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "الأمن السيبراني والشبكات",
+      "specializations": [
+        {
+          "name": "الأمن السيبراني",
+          "description": "حماية الأنظمة والشبكات من التهديدات والهجمات الإلكترونية.",
+          "technicalSkills": ["Networking", "Penetration Testing", "Security Tools", "Firewalls"],
+          "softSkills": ["Analytical Thinking", "Decision Making", "Leadership"],
+          "recommendedCourses": [
+            "CompTIA Security+",
+            "Introduction to Cybersecurity by Cisco",
+            "Certified Ethical Hacker (CEH)"
+          ]
+        },
+        {
+          "name": "تحليل المخاطر الأمنية",
+          "description": "تحديد وتقييم الثغرات والمخاطر الأمنية في الأنظمة والتطبيقات.",
+          "technicalSkills": ["Vulnerability Assessment", "Risk Management", "SIEM Tools"],
+          "softSkills": ["Attention to Detail", "Critical Thinking", "Communication"],
+          "recommendedCourses": [
+            "Risk Management Fundamentals",
+            "SOC Analyst Training",
+            "Incident Response Techniques"
+          ]
+        },
+        {
+          "name": "أمن الشبكات",
+          "description": "تصميم وتأمين شبكات الحاسب لضمان استمرارية الاتصال وحماية البيانات.",
+          "technicalSkills": ["Cisco Networking", "Firewalls", "VPN", "Network Monitoring"],
+          "softSkills": ["Problem Solving", "Teamwork", "Documentation"],
+          "recommendedCourses": [
+            "CCNA Certification",
+            "Network Security Basics",
+            "Cisco Packet Tracer Labs"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "البنية التحتية والسحابة",
+      "specializations": [
+        {
+          "name": "الحوسبة السحابية",
+          "description": "إدارة ونشر الأنظمة على منصات AWS و Azure و Google Cloud.",
+          "technicalSkills": ["AWS", "Azure", "Google Cloud", "Linux", "Networking"],
+          "softSkills": ["Problem Solving", "Adaptability", "Communication"],
+          "recommendedCourses": [
+            "AWS Cloud Practitioner",
+            "Azure Fundamentals",
+            "Google Cloud Essentials"
+          ]
+        },
+        {
+          "name": "DevOps",
+          "description": "دمج التطوير والتشغيل لتسريع عمليات النشر وتحسين الكفاءة.",
+          "technicalSkills": ["Docker", "Kubernetes", "CI/CD", "Jenkins", "Git"],
+          "softSkills": ["Collaboration", "Adaptability", "Communication"],
+          "recommendedCourses": [
+            "DevOps Foundations",
+            "Kubernetes for Beginners",
+            "Continuous Delivery with Jenkins"
+          ]
+        },
+        {
+          "name": "إدارة الأنظمة",
+          "description": "تثبيت وإدارة وصيانة خوادم وأنظمة التشغيل.",
+          "technicalSkills": ["Linux Administration", "Shell Scripting", "Monitoring Tools"],
+          "softSkills": ["Organization", "Problem Solving", "Teamwork"],
+          "recommendedCourses": [
+            "Linux System Administration",
+            "Shell Scripting for Beginners",
+            "System Monitoring Tools"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "إدارة المنتجات والمشاريع التقنية",
+      "specializations": [
+        {
+          "name": "إدارة المشاريع التقنية",
+          "description": "قيادة الفرق التقنية لتحقيق أهداف المشاريع ضمن الوقت والميزانية.",
+          "technicalSkills": ["Agile", "Scrum", "Jira", "Project Planning"],
+          "softSkills": ["Leadership", "Communication", "Time Management"],
+          "recommendedCourses": [
+            "Google Project Management",
+            "Agile with Atlassian Jira",
+            "PMP Exam Prep"
+          ]
+        },
+        {
+          "name": "تحليل الأعمال التقنية",
+          "description": "تحديد احتياجات العملاء وترجمتها إلى متطلبات تقنية واضحة.",
+          "technicalSkills": ["Business Analysis", "Requirements Gathering", "Process Modeling"],
+          "softSkills": ["Critical Thinking", "Communication", "Documentation"],
+          "recommendedCourses": [
+            "Business Analysis Fundamentals",
+            "BABOK Framework",
+            "Agile Business Analysis"
+          ]
+        },
+        {
+          "name": "إدارة المنتجات الرقمية",
+          "description": "تطوير منتجات تقنية من مرحلة الفكرة إلى الإطلاق والنمو.",
+          "technicalSkills": ["Product Strategy", "User Research", "Data Analytics"],
+          "softSkills": ["Leadership", "Strategic Thinking", "Communication"],
+          "recommendedCourses": [
+            "Digital Product Management",
+            "Product Strategy by Kellogg",
+            "User Research Essentials"
+          ]
+        }
+      ]
+    }
+  ]
+}
